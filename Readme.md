@@ -8,7 +8,7 @@
 - Gif | Gif=ross
 - Sticker | Sticker=rose
 - Lightmode | Darkmode
-- File2upload (**Note:** Size=800kb)
+- File2upload (**Note:** Size=800kb only.)
 - Cleartext
 - Audio recorder start (**Note:** 5 seconds only.)
 - Who am i 
