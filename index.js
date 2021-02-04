@@ -10,9 +10,7 @@ const express = require("express"),
 dot.config()
 
 // set up
-const keySize = 512;
-const iterations = 100;
-const password = ')*H)W[C]SM6A3^nr)sp'
+const keySize = 512, iterations = 100, password = ')*H)W[C]SM6A3^nr)sp'
 const port = process.env.PORT || 3333
 const appVersion = fs.readFileSync('./app-version.txt', 'utf8').split('&&')[0].split('=').pop()
 const app = express();
