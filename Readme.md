@@ -13,7 +13,7 @@
 - Audio recorder start (**Note:** 5 seconds only.)
 - Who am i 
 - Open Camera (**Note:** 4 seconds only.)
-- Create your gif also using <a href="https://github.com/yahoo/gifshot">yahoo-gifshot</a>
+- Create your own gif (Add caption, Color, Font size) also using <a href="https://github.com/yahoo/gifshot">yahoo-gifshot</a>
 
 #### PROCEDURE:
 - Download the zip folder from Github and unzip it
