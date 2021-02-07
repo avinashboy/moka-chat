@@ -282,7 +282,8 @@ $(function () {
 
 function basic_init(arr) {
   if (toRemoveCameraIcon) {
-    if (arr.indexOf("Open Camera") > -1) arr.splice(index, 1);
+    const index = arr.indexOf("Open Camera")
+    if (index > -1) arr.splice(index, 1);
   }
   arr.forEach(ele => {
     const li = document.createElement('li')
