@@ -14,6 +14,7 @@
 - Who am i 
 - Open Camera (**Note:** 4 seconds only.)
 - Create your own gif (Add caption, Color, Font size) also using <a href="https://github.com/yahoo/gifshot">yahoo-gifshot</a>
+- Mapbox (**Note:** it will send location.)
 
 #### PROCEDURE:
 - Download the zip folder from Github and unzip it
