@@ -20,7 +20,8 @@
 - Download the zip folder from Github and unzip it
 Here is the link to download zip 👉
 <a href='https://github.com/avinashboy/moka-chat'>HERE</a>
-- First, get your **API key** from <a href="https://developers.giphy.com/">Giphy Developers</a> and edit <code>.env</code> and put your here `API_key=Your API Key`
+- First, get your **API key** from <a href="https://developers.giphy.com/">Giphy Developers</a> and edit <code>.env</code> and put your here `API_key = Your API Key`
+- Frist, get your **API key** from <a href="https://www.mapbox.com/">Map box</a> and edit <code>.app.js</code> and put your here `mapboxgl.accessToken = Your API Key`
 - Open the folder in VS Code
 - RUN <code>npm install</code> , this command pulls out all the require node modules
 - RUN <code>npm start</code>, this command will start your file in localhost <a href="http://localhost:3333">http://localhost:3333</a>
