@@ -21,7 +21,7 @@
 - Audio recorder start (**Note:** 5 seconds only.)
 - Who am i 
 - Open Camera (**Note:** 4 seconds only.)
-- Create your own gif (Add caption, Color, Font size) also using <a href="https://github.com/yahoo/gifshot">yahoo-gifshot</a>
+- Create your own gif (Add caption, Color, Font size)using <a href="https://github.com/yahoo/gifshot">yahoo-gifshot</a>
 - Mapbox (**Note:** it will send location.)
 
 #### SECURITY:
