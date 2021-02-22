@@ -44,8 +44,8 @@ io.sockets.on("connection", function (socket) {
 
   socket.emit("basic_need", { keySize, iterations, password, arr: makeArr(arr), appVersion })
 
-  //socket.emit('alert', { newFeature: alertType(alertmsg), time: 1500 })
-  //setInterval(() => { socket.emit("CheckMe") }, 9 * 1000)
+  socket.emit('alert', { newFeature: alertType(alertmsg), time: 1500 })
+  setInterval(() => { socket.emit("CheckMe") }, 9 * 1000)
 
   socket.on("showNewfeature", () => {
     socket.emit('alert', { newFeature: alertType(arr), time: 7000 })
