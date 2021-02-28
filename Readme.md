@@ -23,6 +23,7 @@
 - Open Camera (**Note:** 4 seconds only.)
 - Create your own gif (Add caption, Color, Font size)using <a href="https://github.com/yahoo/gifshot">yahoo-gifshot</a>
 - Mapbox (**Note:** it will send location.)
+- Create room (**Note:** just one time) | Show the room 
 
 #### SECURITY:
 ##### I use cryto.js module to encrypt and decrypt the message and geo location information. The algorithm what i use is Advanced Encryption Standard (AES) and Password-Based Key Derivation Function 2 (PBKDF2). 
