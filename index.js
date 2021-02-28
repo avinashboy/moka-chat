@@ -14,7 +14,7 @@ const rooms = {}
 
 const createAccountLimiter = rateLimit({
   windowMs: 60 * 60 * 1000,
-  max: 2,
+  max: 1,
   message: "Too many room cann't be created from this IP, please try again after an hour"
 });
 dot.config()
@@ -67,8 +67,8 @@ io.sockets.on("connection", function (socket) {
 
   socket.emit("basic_need", { keySize, iterations, password, arr: makeArr(arr), appVersion })
 
-  //socket.emit('alert', { newFeature: alertType(alertmsg), time: 1500 })
-  //setInterval(() => { socket.emit("CheckMe") }, 9 * 1000)
+  socket.emit('alert', { newFeature: alertType(alertmsg), time: 1500 })
+  setInterval(() => { socket.emit("CheckMe") }, 9 * 1000)
 
   socket.on("showNewfeature", () => {
     socket.emit('alert', { newFeature: alertType(arr), time: 7000 })
