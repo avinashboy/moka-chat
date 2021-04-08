@@ -12,7 +12,7 @@
 - <img height="20" src="https://avatars.githubusercontent.com/u/10566080?s=200&v=4">
 
 
-#### FEATURES:
+#### FEATURES (key words use in message box):
 - Gif | Gif=ross
 - Sticker | Sticker=rose
 - Lightmode | Darkmode
