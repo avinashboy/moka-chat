@@ -74,7 +74,7 @@ function init() {
 
     if (message.split(" ").join("") === 'showtheroom') return ShowTheRoom()
 
-    if (message.split(" ").join("") === 'appversion') return alert("secondary", `App Version = ${appVersion}`), $('#msg').val("")
+    if (message.split(" ").join("") === 'appversion') return alert("secondary", `Web app version = ${appVersion}`), $('#msg').val("")
 
     if (message.split(" ").join("") === 'mapbox') return mapBox(), $('#msg').val("")
 
@@ -622,7 +622,7 @@ function takeSnapfuc() {
   canvas.width = width;
   canvas.height = height;
   context.drawImage(snapshot, 0, 0, width, height);
-  var data = canvas.toDataURL('image/jpeg');
+  var data = canvas.toDataURL('image/webp');
   tempData = data
   let div = makeDiv('toSendPhoto')
   img.setAttribute("src", data)
@@ -1004,7 +1004,7 @@ $(document).on('click', '.dummy', function () {
 })
 
 function deleteTrashAdd() {
-  return $('.deleteTrash').html(`<i class="fas fa-trash" id="deleteItemsFromList"></i>`), deleteItemsFromList = document.getElementById('deleteItemsFromList'), basicCallfucTwo()
+  return $('.deleteTrash').html(`<i class="fas fa-trash" id="deleteItemsFromList"></i>&nbsp;<span>${deleteTrashArr.length}</span>&nbsp;`), deleteItemsFromList = document.getElementById('deleteItemsFromList'), basicCallfucTwo()
 }
 
 function deleteTrashRemove() {

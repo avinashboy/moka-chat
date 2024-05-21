@@ -27,7 +27,7 @@ const app = express();
 const server = require('http').Server(app)
 const options = {
   cors: true,
-  origins: ["https://moka-chat.herokuapp.com/"]
+  origins: ["*"]
 }
 const io = require("socket.io")(server, options);
 // listern

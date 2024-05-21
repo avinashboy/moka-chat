@@ -4,15 +4,7 @@
 
 ![Moka](Video.gif)
 
-### Tech stack
-- <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png">
-- <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png">
-- <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">
-- <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png">
-- <img height="20" src="https://avatars.githubusercontent.com/u/10566080?s=200&v=4">
-
-
-#### FEATURES (key words use in message box):
+#### FEATURES:
 - Gif | Gif=ross
 - Sticker | Sticker=rose
 - Lightmode | Darkmode
@@ -21,9 +13,8 @@
 - Audio recorder start (**Note:** 5 seconds only.)
 - Who am i 
 - Open Camera (**Note:** 4 seconds only.)
-- Create your own gif (Add caption, Color, Font size)using <a href="https://github.com/yahoo/gifshot">yahoo-gifshot</a>
+- Create your own gif (Add caption, Color, Font size) also using <a href="https://github.com/yahoo/gifshot">yahoo-gifshot</a>
 - Mapbox (**Note:** it will send location.)
-- Create room (**Note:** just one time) | Show the room 
 
 #### SECURITY:
 ##### I use cryto.js module to encrypt and decrypt the message and geo location information. The algorithm what i use is Advanced Encryption Standard (AES) and Password-Based Key Derivation Function 2 (PBKDF2). 
