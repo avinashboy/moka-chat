@@ -20,8 +20,7 @@
 ##### I use cryto.js module to encrypt and decrypt the message and geo location information. The algorithm what i use is Advanced Encryption Standard (AES) and Password-Based Key Derivation Function 2 (PBKDF2). 
 
 #### PROCEDURE:
-- Download the zip folder from Github and unzip it
-Here is the link to download zip 👉
+- Download the Code from GitHub and unzip it.
 <a href='https://github.com/avinashboy/moka-chat'>HERE</a>
 - First, get your **API key** from <a href="https://developers.giphy.com/">Giphy Developers</a> and edit <code>.env</code> and put your here `API_key = Your API Key`
 - Frist, get your **API key** from <a href="https://www.mapbox.com/">Map box</a> and edit <code>.app.js</code> and put your here `mapboxgl.accessToken = Your API Key`
