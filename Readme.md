@@ -1,6 +1,6 @@
 # Moka Chat
 
-## <a href="https://moka-chat.herokuapp.com/">LIVE DEMO</a>
+## <a href="https://mokachat.onrender.com">LIVE DEMO</a>
 
 ![Moka](Video.gif)
 
